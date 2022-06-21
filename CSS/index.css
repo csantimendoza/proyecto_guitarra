@@ -36,9 +36,14 @@ header{
     border-bottom: 4px solid rgb(255, 94, 0);
 }
 
+header{
+    background: linear-gradient(to left, rgb(235, 110, 8), orange);
+}
+
 
 header nav .menu{
     display: flex;
+
 }
 
 .menu__item{
@@ -160,32 +165,52 @@ transition: transform 2s;
     grid-column: 7/13;
     grid-row: 1;
     max-width: 700px;
+    transition: transform 2s;
     }
+  .gallery .gallery__img2:hover{
+        transform: scale(1.1);
+     }
 .gallery .gallery__img3{
     grid-column: 1/5;
     grid-row: 2;
     max-width: 400px;
- 
+    transition: transform 2s;
 }
+.gallery__img3:hover{
+    transform: scale(1.1);
+ 
+ }
 .gallery .gallery__img4{
     grid-column: 5/9;
     grid-row: 2;
     max-width: 400px;
-
+    transition: transform 2s;
 }
+.gallery__img4:hover{
+    transform: scale(1.1);
+ 
+ }
 .gallery .gallery__img5{
     grid-column: 9/13;
     grid-row: 2/4;
     max-width: 900px;
- 
+    transition: transform 2s;
 }
+.gallery__img5:hover{
+    transform: scale(1.1);
+ 
+ }
 .gallery .gallery__img6{
     grid-column: 1/9;
     grid-row: 3;
     max-width: 800px;
- 
+    transition: transform 2s;
     
 }
+.gallery__img6:hover{
+    transform: scale(1.1);
+ 
+ }
 
 /*planilla guitarra*/
 .gallery2{
@@ -303,6 +328,8 @@ margin-right: auto;
 }
 .sorteo__anuncio{
     background-color: rgba(255, 255, 255, 0.873);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .chiquito{
     width: 70px;;
@@ -370,10 +397,6 @@ margin-right: auto;
         justify-content: center;
         gap: 4rem;
         padding: 5rem 0;
-        }
-
-    
-
-      
+        }   
         
 }
