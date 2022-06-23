@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
@@ -29,21 +30,49 @@
             </ul>
         </nav>
     </header>
-    
-    <h2>EL MUNDO DE LOS BAJOS</h2>
     <section id="Bajitos">
-        <img src="./Imagenes/bajos.jpg" alt="" height="100px">
-    <br>
     <p>En la seccion de Bajos podras encontrar gran variedad de instrumentos acorde a lo que necesitas. Entre gran variedad de marca, estilos, calidad, material y sonida; podras hacer la prueba del bajo </p>
-    <h3>Bajos y accesorios</h3>
-    <div class="stock-bajos">
+    <h3>Bajos de Luthier en stock</h3>
+   <!-- <div class="container row">
         <img src="./Imagenes/bajo 1.jpg" alt="" width="150px" class="margen-bajos">
         <img src="./Imagenes/bajo 2.jpg" alt="" width="150px" class="margen-bajos">
         <img src="./Imagenes/bajo 3.jpg" alt="" width="150px" class="margen-bajos">
         <img src="./Imagenes/accesorio bajo 1.jpg" alt="" width="150px" class="margen-bajos">
         <img src="./Imagenes/accesorio bajo 2.jpg" alt="" width="150px" class="margen-bajos">
         <img src="./Imagenes/accesosrio bajo 3.jpg" alt="" width="150px" class="margen-bajos">
-    </div>
+    </div>-->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide w-50 container my-10" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="./Imagenes/bajo 1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./Imagenes/bajo 2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./Imagenes/bajo 3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <h3>Como nuestros clientes se acercan a probar los bajos</h3>
     <video src="./Videos/prueba bajos.mp4"></video>
     <footer>
@@ -63,5 +92,6 @@
                 </li>
             </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
