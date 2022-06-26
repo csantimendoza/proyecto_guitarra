@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Taviraj', serif;
-     background-image:url(../Imagenes/fondo\ nuevo.jpg)
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
 }
 
 
@@ -33,11 +33,17 @@ header{
     align-items: center;
     justify-content: space-around;
     padding: 2rem 0;
-    border-bottom: 4px solid rgb(255, 94, 0);
+    border-bottom: 7px solid rgb(255, 94, 0);
+    height: 100vh;
 }
 
 header{
-    background: linear-gradient(to left, rgb(235, 110, 8), orange);
+    background-image: url(../Imagenes/fondo\ header\ 2.webp);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
 }
 
 
@@ -52,14 +58,15 @@ header nav .menu{
 
 
 .menu__link{
-    color: white;
-    padding: 2rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
     font-size: 2rem;
+    
 }
 
 .menu__link:hover{
     color: black;
-    background-color:rgb(255, 94, 0) ;
+    background-color:rgba(221, 81, 0, 0.808) ;
     transition: background-color 2s;
 }
 .logo__marcas{
@@ -70,6 +77,83 @@ header nav .menu{
     gap: 4rem;
     padding: 5rem 0;
 
+}
+
+.logo__fender{
+    transition: transform 2s;
+}
+.logo__fender:hover{
+    transform: rotate(35deg)
+}
+
+.logo__epiphone{
+    transition: transform 2s;
+}
+.logo__epiphone:hover{
+    transform: rotate(35deg)
+}
+
+.logo__washburn{
+    transition: transform 2s;
+}
+.logo__washburn:hover{
+    transform: rotate(35deg)
+}
+
+.logo__yamaha{
+    transition: transform 2s;
+}
+.logo__yamaha:hover{
+    transform: rotate(35deg)
+}
+
+.logo__ibanez{
+    transition: transform 2s;
+}
+.logo__ibanez:hover{
+    transform: rotate(35deg)
+}
+
+.logo__gibson{
+    transition: transform 2s;
+}
+.logo__gibson:hover{
+    transform: rotate(35deg)
+}
+
+
+
+.logo__facebook{
+transition: transform 2s;
+}
+.logo__facebook:hover{
+transform: rotate(25deg)
+}
+
+.logo__twitter{
+    transition: transform 2s;
+
+}
+.logo__twitter:hover{
+    transform: rotate(25deg);
+    
+}
+
+.logo__instagram{
+    transition: transform 2s;
+
+}
+.logo__instagram:hover{
+    transform: rotate(25deg);
+}
+
+.logo__gmail{
+    transition: transform 2s;
+
+}
+.logo__gmail:hover{
+    transform: rotate(25deg);
+    
 }
 
 header .header__logo{
