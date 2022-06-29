@@ -1,0 +1,15 @@
+header .header__img {
+  max-width: 320px; }
+
+header .menu .menu__item {
+  padding: 2rem; }
+
+header .menu .menu__link {
+  color: white;
+  padding: 2rem;
+  font-size: 2rem; }
+
+header .menu .menu__link:hover {
+  color: black;
+  background-color: #ff5e00;
+  transition: background-color 2s; }
