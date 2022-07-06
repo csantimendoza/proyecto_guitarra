@@ -1,0 +1,222 @@
+/*HOME*/
+
+.menu__item{
+    padding: 2rem;
+}
+
+
+.menu__link{
+    color: white;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.menu__link:hover{
+    color: black;
+    background-color:rgb(255, 94, 0) ;
+    transition: background-color 2s;
+}
+
+.chiquito{
+    width: 70px;;
+}
+.logo__marcas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+    padding: 5rem 0;
+}
+
+body{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+header{
+    background-image: url(../Imagenes/fondo/header/2.webp);
+}
+.sorteo__anuncio{
+    padding: 2rem 8rem;
+    background-color: rgba(248, 97, 9, 0.877);
+}
+
+.sorteo__formulario{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(248, 97, 9, 0.877);
+    font-size: 1.5rem;
+}
+
+.mundo__musical{
+   background-color: rgba(255, 68, 0, 0.678);
+   padding: 1rem 2rem;
+   margin: 2rem 5rem;
+}
+
+
+
+/*body{
+    font-family: 'Taviraj', serif;
+}*/
+
+/*Grilla de imagenes*/
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+    margin: 2rem;
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.gallery .gallery__img1{
+    grid-column: 1/7;
+    grid-row: 1;
+    max-width: 600px;
+    transition: transform 2s;
+    }
+    .gallery__img1:hover{
+       transform: scale(1.1);
+    
+    }
+    .gallery .gallery__img2{
+        grid-column: 7/13;
+        grid-row: 1;
+        max-width: 700px;
+        transition: transform 2s;
+        }
+      .gallery .gallery__img2:hover{
+            transform: scale(1.1);
+         }
+    .gallery .gallery__img3{
+        grid-column: 1/5;
+        grid-row: 2;
+        max-width: 400px;
+        transition: transform 2s;
+    }
+    .gallery__img3:hover{
+        transform: scale(1.1);
+     
+     }
+    .gallery .gallery__img4{
+        grid-column: 5/9;
+        grid-row: 2;
+        max-width: 400px;
+        transition: transform 2s;
+    }
+    .gallery__img4:hover{
+        transform: scale(1.1);
+     
+     }
+    .gallery .gallery__img5{
+        grid-column: 9/13;
+        grid-row: 2/4;
+        max-width: 900px;
+        transition: transform 2s;
+    }
+    .gallery__img5:hover{
+        transform: scale(1.1);
+     
+     }
+    .gallery .gallery__img6{
+        grid-column: 1/9;
+        grid-row: 3;
+        max-width: 800px;
+        transition: transform 2s;
+        
+    }
+    .gallery__img6:hover{
+        transform: scale(1.1);
+     
+     }
+
+
+     
+
+
+     .logo__fender{
+        transition: transform 2s;
+    }
+    .logo__fender:hover{
+        transform: rotate(35deg)
+    }
+    
+    .logo__epiphone{
+        transition: transform 2s;
+    }
+    .logo__epiphone:hover{
+        transform: rotate(35deg)
+    }
+    
+    .logo__washburn{
+        transition: transform 2s;
+    }
+    .logo__washburn:hover{
+        transform: rotate(35deg)
+    }
+    
+    .logo__yamaha{
+        transition: transform 2s;
+    }
+    .logo__yamaha:hover{
+        transform: rotate(35deg)
+    }
+    
+    .logo__ibanez{
+        transition: transform 2s;
+    }
+    .logo__ibanez:hover{
+        transform: rotate(35deg)
+    }
+    
+    .logo__gibson{
+        transition: transform 2s;
+    }
+    .logo__gibson:hover{
+        transform: rotate(35deg)
+    }
+    
+    
+    
+    .logo__facebook{
+    transition: transform 2s;
+    }
+    .logo__facebook:hover{
+    transform: rotate(25deg)
+    }
+    
+    .logo__twitter{
+        transition: transform 2s;
+    
+    }
+    .logo__twitter:hover{
+        transform: rotate(25deg);
+    
+    }
+    
+    .logo__instagram{
+        transition: transform 2s;
+    
+    }
+    .logo__instagram:hover{
+        transform: rotate(25deg);
+    }
+    
+    .logo__gmail{
+        transition: transform 2s;
+    
+    }
+    .logo__gmail:hover{
+        transform: rotate(25deg);
+    
+    }
+    

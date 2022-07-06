@@ -1,55 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300;500;700;900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 body{
     font-family: 'Taviraj', serif;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
 }
 
-
-html{
-    font-size: 62.5%;
-}
-
-
-ul{
-list-style-type: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-img{
-    width: 100%;
-}
-
-header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2rem 0;
-    border-bottom: 7px solid rgb(255, 94, 0);
-    height: 100vh;
-}
-
-header{
+.header__fondo{
     background-image: url(../Imagenes/fondo\ header\ 2.webp);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
-    
-}
-
-
-header nav .menu{
-    display: flex;
-
 }
 
 .menu__item{
@@ -58,15 +14,14 @@ header nav .menu{
 
 
 .menu__link{
-    color: rgb(255, 255, 255);
-    padding: 1rem;
+    color: white;
+    padding: 2rem;
     font-size: 2rem;
-    
 }
 
 .menu__link:hover{
     color: black;
-    background-color:rgba(221, 81, 0, 0.808) ;
+    background-color:rgb(255, 94, 0) ;
     transition: background-color 2s;
 }
 .logo__marcas{
@@ -79,148 +34,19 @@ header nav .menu{
 
 }
 
-.logo__fender{
-    transition: transform 2s;
-}
-.logo__fender:hover{
-    transform: rotate(35deg)
-}
-
-.logo__epiphone{
-    transition: transform 2s;
-}
-.logo__epiphone:hover{
-    transform: rotate(35deg)
-}
-
-.logo__washburn{
-    transition: transform 2s;
-}
-.logo__washburn:hover{
-    transform: rotate(35deg)
-}
-
-.logo__yamaha{
-    transition: transform 2s;
-}
-.logo__yamaha:hover{
-    transform: rotate(35deg)
-}
-
-.logo__ibanez{
-    transition: transform 2s;
-}
-.logo__ibanez:hover{
-    transform: rotate(35deg)
-}
-
-.logo__gibson{
-    transition: transform 2s;
-}
-.logo__gibson:hover{
-    transform: rotate(35deg)
-}
-
-
-
-.logo__facebook{
-transition: transform 2s;
-}
-.logo__facebook:hover{
-transform: rotate(25deg)
-}
-
-.logo__twitter{
-    transition: transform 2s;
-
-}
-.logo__twitter:hover{
-    transform: rotate(25deg);
-    
-}
-
-.logo__instagram{
-    transition: transform 2s;
-
-}
-.logo__instagram:hover{
-    transform: rotate(25deg);
-}
-
-.logo__gmail{
-    transition: transform 2s;
-
-}
-.logo__gmail:hover{
-    transform: rotate(25deg);
-    
-}
-
-header .header__logo{
-    /* flex-basis: 40%; */
-}
-
-header .header__img{
-    max-width: 320px;
-}
-
-header .navegacion{
-    /* flex-basis: 60%; */
-}
-
-
-footer{
-    background-color:rgba(255, 68, 0, 0.575) ;
-    color: rgb(0, 0, 0) ;
-    padding: 2rem 0;
-    
-    }
-.footer .footer__img{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   gap: 4rem;
-
-}
 
 .pequeño{
     width: 50px;
 }
 
-p{
-    color: black;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 2rem 0;
-}
 
-.mundo__musical{
-    background-color: rgba(255, 68, 0, 0.658);
-}
-h1{
-    color:rgb(255, 115, 0) ;
-    font-weight: 900;
-    
-}
-h2{
-    color:orangered;
-    font-weight: 700;
-}
-#Guitarras{
-    background-color: rgba(255, 68, 0, 0.658);
-    margin: 100px 200px;
-    padding: 3rem 0;
-    
-}
-#Bajitos{
-    background-color: rgba(255, 68, 0, 0.658);
-    text-align: center;
-    margin: 10px 200px
-}
-a{
-    color: rgb(0, 0, 0);
-    font-size: 2.2rem
-}
+
+
+
+
+
+
+
 
 .gallery{
     display: grid;
@@ -294,7 +120,7 @@ transition: transform 2s;
 .gallery__img6:hover{
     transform: scale(1.1);
  
- }
+ } */
 
 /*planilla guitarra*/
 .gallery2{
@@ -345,21 +171,14 @@ grid-row: 1;
 
 
 
-.container{
-    max-width: 800px;
-    margin: 0 auto;
-}
 
-.container2{
-    max-width: 800px;
-    margin: 0 auto;
-    justify-items: center;
-    align-items: center;
-    }
+
+
 #Servicio{
     background-color: rgba(255, 68, 0, 0.651);
     text-align: center;
-    margin: 50px 200px;
+    padding: 1rem 2rem;
+    margin: 2rem 5rem;
 }
 label{
     color: rgb(0, 0, 0);
@@ -368,10 +187,7 @@ label{
 .marcas__nombre{
     list-style-type: circle;
 }
-.guitarras{
-    background-color: rgba(255, 68, 0, 0.658);
-    margin: 5px 100px;
-}
+
 .guitarra__centrado{
     text-align: center;
 }
@@ -395,9 +211,9 @@ width: 300px;
 margin-left: auto;
 margin-right: auto;
 }
-#sorteo{
+/* #sorteo{
     background-color: rgba(255, 128, 0, 0.642)
-}
+} */
 .naranjita{
     color: rgb(0, 0, 0);
     font-weight: 700;
@@ -410,11 +226,11 @@ margin-right: auto;
     background-color: rgba(255, 68, 0, 0.575);
     font-size: 1.5rem;
 }
-.sorteo__anuncio{
+/* .sorteo__anuncio{
     background-color: rgba(255, 255, 255, 0.873);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
+} */
 .chiquito{
     width: 70px;;
 }
@@ -445,10 +261,13 @@ margin-right: auto;
     margin: 50px 200px;
 }
 
-@media screen and (max-width: 480px){
+/* @media screen and (max-width: 480px){
     header{
         flex-direction: column;
         gap: 2rem;
+    }
+    .header__img{
+        width: 50px;
     }
     a{
         font-size: 2rem;
@@ -483,4 +302,4 @@ margin-right: auto;
         padding: 5rem 0;
         }   
         
-}
+} */

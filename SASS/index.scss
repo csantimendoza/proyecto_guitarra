@@ -1,20 +1,19 @@
-header{
-    .header__img{
-        max-width: 320px;
-    }
-    .menu{
-        .menu__item{
-            padding: 2rem;
-        }
-        .menu__link{
-            color: white;
-    padding: 2rem;
-    font-size: 2rem;
-        }
-        .menu__link:hover{
-            color: black;
-    background-color:rgb(255, 94, 0) ;
-    transition: background-color 2s;
-        }
-    }
-}
+/*MISC*/
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/mixins';
+
+
+/*PARTIALS*/
+@import './partials/header';
+@import './partials/footer';
+
+/*VIEWS*/
+@import './views/home';
+@import './views/guitarras';
+@import './views/bajos';
+@import './views/servicio';
+@import './views/contacto';
+
+/*MEDIAQUERYS*/
+@import './misc/mediaquerys'

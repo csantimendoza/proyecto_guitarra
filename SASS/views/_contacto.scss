@@ -1,0 +1,26 @@
+#contacto-formulario{
+    background-color: rgba(255, 68, 0, 0.651);
+    text-align: center;
+    margin: 50px 200px;
+}
+
+.boton{
+    @include sizes(100px, 50px);
+    background-color: white;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+.boton--enviar{
+    @extend.boton;
+background-color: coral;
+color: black
+}
+
+.boton--borrar{
+    @extend.boton;
+    background-color: darkred;
+    color: black;
+
+}

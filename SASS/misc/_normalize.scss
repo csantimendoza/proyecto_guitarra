@@ -1,0 +1,44 @@
+/*NORMALIZE*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+ 
+
+h1{
+    color:rgb(255, 115, 0) ;
+    font-weight: 900;    
+}
+h2{
+    color:orangered;
+    font-weight: 700;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    // padding: 2rem 0;
+    // background-color: rgba(255, 68, 0, 0.644);
+}
+
+
+ul{
+list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+a{
+    color: rgb(0, 0, 0);
+    font-size: 2.2rem
+}
+
+img{
+    width: 100%;
+}
