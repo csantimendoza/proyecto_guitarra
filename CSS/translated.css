@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/*FONZICE*/
+@import url("https://fonts.googleapis.com/css2?family=Taviraj:wght@300;500;700;900&display=swap");
 /*MISC*/
 body {
   font-family: 'Taviraj', serif; }
@@ -34,7 +36,17 @@ h1 {
 
 h2 {
   color: orangered;
-  font-weight: 700; }
+  font-weight: 800;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 4rem;
+  text-shadow: 1px 1px 1px #141619; }
+
+h3 {
+  color: #020202;
+  font-weight: 600;
+  font-size: 2.3rem;
+  text-align: center; }
 
 p {
   color: black;
@@ -64,7 +76,7 @@ img {
 
 .menu .menu__link {
   color: white;
-  padding: 2rem;
+  padding: 1rem;
   font-size: 2rem; }
 
 .menu .menu__link:hover {
@@ -294,8 +306,8 @@ header {
 
 .guitarras {
   background-color: rgba(255, 68, 0, 0.658);
-  padding: 1rem 2rem;
-  margin: 2rem 5rem;
+  padding: 2rem 4rem;
+  margin: 10rem 10rem;
   text-align: center; }
 
 /*grilla de imagenes guitarra*/
@@ -340,23 +352,32 @@ header {
   grid-row: 3; }
 
 .anuncio__bajos {
-  text-align: center;
-  margin: 10px 200px; }
+  text-align: center; }
 
 #Bajitos {
   background-color: rgba(255, 68, 0, 0.658);
-  text-align: center;
-  padding: auto 2rem; }
+  padding: 2rem 4rem;
+  margin: 10rem 10rem;
+  text-align: center; }
+
+.video__bajo {
+  width: 500px; }
 
 #Servicio {
-  background-color: rgba(255, 68, 0, 0.651);
-  text-align: center;
-  padding: 2rem; }
+  background-color: rgba(255, 68, 0, 0.658);
+  padding: 2rem 4rem;
+  margin: 10rem 10rem;
+  text-align: center; }
+
+.img__luthier {
+  width: 500px;
+  margin: 2rem; }
 
 #contacto-formulario {
-  background-color: rgba(255, 68, 0, 0.651);
-  text-align: center;
-  margin: 50px 200px; }
+  background-color: rgba(255, 68, 0, 0.658);
+  padding: 2rem 4rem;
+  margin: 10rem 10rem;
+  text-align: center; }
 
 .boton, .boton--enviar, .boton--borrar {
   width: 100px;
@@ -367,12 +388,19 @@ header {
   border-radius: 10px; }
 
 .boton--enviar {
-  background-color: coral;
+  background-color: #ff3c00;
   color: black; }
 
 .boton--borrar {
-  background-color: darkred;
+  background-color: rgba(139, 0, 0, 0.753);
   color: black; }
+
+.formulario {
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 3rem;
+  padding: 2rem; }
 
 /*MEDIAQUERYS*/
 @media screen and (max-width: 1000px) {
@@ -412,6 +440,9 @@ header {
   header {
     flex-direction: column;
     gap: 0.5rem 0.5rem; }
+  header nav .menu {
+    display: flex;
+    flex-direction: column; }
   .header__img {
     width: 500px; }
   .menu__item {
@@ -441,8 +472,28 @@ header {
     gap: 4rem;
     padding: 5rem 0; } }
 
-@media screen and (max-width: 847px) {
+@media screen and (max-width: 700px) {
+  h2 {
+    color: orangered;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    text-shadow: 1px 1px 1px #141619; }
+  h3 {
+    color: #020202;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center; }
   .video__bajo {
-    width: 500px; }
+    width: 300px; }
   .video__servicio {
-    width: 300px; } }
+    width: 250px; }
+  .img__luthier {
+    width: 230px; }
+  .formulario {
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem; } }

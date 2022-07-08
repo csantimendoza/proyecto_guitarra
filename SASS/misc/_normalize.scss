@@ -15,8 +15,19 @@ h1{
     font-weight: 900;    
 }
 h2{
-    color:orangered;
-    font-weight: 700;
+    color: orangered;
+    font-weight: 800;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 4rem;
+    text-shadow: 1px 1px 1px #141619;
+}
+
+h3{
+    color: rgb(2, 2, 2);
+    font-weight: 600;
+    font-size: 2.3rem;
+    text-align: center;
 }
 p{
     color: black;

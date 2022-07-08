@@ -1,26 +1,37 @@
 #contacto-formulario{
-    background-color: rgba(255, 68, 0, 0.651);
+    background-color: rgba(255, 68, 0, 0.658);
+    padding: 2rem 4rem;
+    margin: 10rem 10rem;
     text-align: center;
-    margin: 50px 200px;
-}
-
+    }
 .boton{
     @include sizes(100px, 50px);
-    background-color: white;
-    text-align: center;
-    color: black;
-    border-radius: 10px;
+        background-color: white;
+        text-align: center;
+        color: black;
+        border-radius: 10px;
+    
+    
 }
+
 
 .boton--enviar{
     @extend.boton;
-background-color: coral;
-color: black
+background-color: rgb(255, 60, 0);
+color: black;
 }
 
 .boton--borrar{
     @extend.boton;
-    background-color: darkred;
+    background-color: rgba(139, 0, 0, 0.753);
     color: black;
 
+}
+
+.formulario{
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 3rem;
+    padding: 2rem;
 }

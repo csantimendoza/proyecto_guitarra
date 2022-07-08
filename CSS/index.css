@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300;500;700;900&display=swap');
+
 
 body{
     font-family: 'Taviraj', serif;
@@ -174,12 +174,7 @@ grid-row: 1;
 
 
 
-#Servicio{
-    background-color: rgba(255, 68, 0, 0.651);
-    text-align: center;
-    padding: 1rem 2rem;
-    margin: 2rem 5rem;
-}
+
 label{
     color: rgb(0, 0, 0);
 }
@@ -255,11 +250,11 @@ margin-right: auto;
 .margen-bajos{
     margin: 30px;
 }
-#contacto-formulario{
+/* #contacto-formulario{
     background-color: rgba(255, 68, 0, 0.651);
     text-align: center;
     margin: 50px 200px;
-}
+} */
 
 /* @media screen and (max-width: 480px){
     header{
