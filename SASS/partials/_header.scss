@@ -1,9 +1,5 @@
 /*header*/
 
-
-    .header__img{
-        max-width: 320px;
-    }
     .menu{
         .menu__item{
             padding: 2rem;
@@ -23,7 +19,7 @@
 
 header{
     background-position: center;
-    background-size: cover;
+    // background-size: cover;
     background-attachment: fixed;
     height: 100vh;
 }

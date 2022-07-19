@@ -46,7 +46,7 @@
 }
 
 
-@media screen and (max-width: 655px){
+@media screen and (max-width: 465px){
     header{
         flex-direction: column;
         gap: 0.5rem 0.5rem;
@@ -138,3 +138,62 @@
     }
 }
         
+@media screen and (max-width: 480px){
+    header{
+        flex-direction: column;
+        gap: 0.5rem 0.5rem;
+    }
+
+    header nav .menu{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .header__img{
+        width: 500px;
+    }
+    .menu__item{
+        padding: 0.5rem;
+    }
+    a{
+        font-size: 0.5px;
+    }
+    
+    
+    h2{
+        color: orangered;
+        font-weight: 800;
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 4rem;
+        text-shadow: 1px 1px 1px #141619;
+    }
+    
+    h3{
+        color: rgb(2, 2, 2);
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+
+    .video__bajo{
+        width: 300px;
+    }
+    .video__servicio{
+        width: 250px;
+    }
+
+    .img__luthier{
+        width: 230px;
+    }
+
+    .formulario{
+        justify-content: center;
+        font-weight: 400;
+        font-size: 1rem;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    
+}
