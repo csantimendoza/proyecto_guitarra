@@ -8,11 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/translated.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <header class="header__fondo">
         <picture class="header__logo">
-            <img class="header__img" src="./imagenes/logo_large.png" alt="">
+            <img class="header__img" src="./Imagenes/logo_large.png" alt="">
         </picture>
         <nav class="navegacion">
             <ul class="menu">
@@ -32,7 +34,7 @@
         </nav>
     </header>
     <H2>BAJOS</H2>
-    <section id="Bajitos">
+    <section id="Bajitos" data-aos="fade-down">
     <p class="anuncio__bajos">En la seccion de Bajos podras encontrar gran variedad de instrumentos acorde a lo que necesitas. Entre gran variedad de marca, estilos, calidad, material y sonida; podras hacer la prueba del bajo </p>
     <h3>Bajos de Luthier en stock</h3>
    <!-- <div class="container row">
@@ -76,7 +78,8 @@
         </button>
       </div>
     <h3>Como nuestros clientes se acercan a probar los bajos</h3>
-    <video src="./Videos/prueba bajos.mp4" class="video__bajo"></video>
+    <!-- <video src="./Videos/prueba bajos.mp4" class="video__bajo"></video> -->
+    <iframe class="video__bajo" width="560" height="315" src="https://www.youtube.com/embed/BG_xVNThe-A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     
     <footer>
@@ -97,5 +100,10 @@
             </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

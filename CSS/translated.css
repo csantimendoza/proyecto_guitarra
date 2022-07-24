@@ -46,7 +46,8 @@ h3 {
   color: #020202;
   font-weight: 600;
   font-size: 2.3rem;
-  text-align: center; }
+  text-align: center;
+  margin: 3rem; }
 
 p {
   color: black;
@@ -83,6 +84,7 @@ img {
 
 header {
   background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   height: 100vh; }
 
@@ -301,10 +303,9 @@ header {
   transform: rotate(25deg); }
 
 .guitarras {
-  background-color: rgba(255, 68, 0, 0.658);
-  padding: 2rem 4rem;
-  margin: 10rem 10rem;
-  text-align: center; }
+  background-color: rgba(255, 68, 0, 0.678);
+  padding: 1rem 2rem;
+  margin: 2rem 5rem; }
 
 /*grilla de imagenes guitarra*/
 .container2 {
@@ -351,18 +352,19 @@ header {
   text-align: center; }
 
 #Bajitos {
-  background-color: rgba(255, 68, 0, 0.658);
-  padding: 2rem 4rem;
-  margin: 10rem 10rem;
+  background-color: rgba(255, 68, 0, 0.678);
+  padding: 1rem 2rem;
+  margin: 2rem 5rem;
   text-align: center; }
 
 .video__bajo {
-  width: 500px; }
+  width: 500px;
+  text-align: center; }
 
 #Servicio {
-  background-color: rgba(255, 68, 0, 0.658);
-  padding: 2rem 4rem;
-  margin: 10rem 10rem;
+  background-color: rgba(255, 68, 0, 0.678);
+  padding: 1rem 2rem;
+  margin: 2rem 5rem;
   text-align: center; }
 
 .img__luthier {
@@ -370,9 +372,9 @@ header {
   margin: 2rem; }
 
 #contacto-formulario {
-  background-color: rgba(255, 68, 0, 0.658);
-  padding: 2rem 4rem;
-  margin: 10rem 10rem;
+  background-color: rgba(255, 68, 0, 0.678);
+  padding: 1rem 2rem;
+  margin: 2rem 5rem;
   text-align: center; }
 
 .boton, .boton--enviar, .boton--borrar {
@@ -381,7 +383,8 @@ header {
   background-color: white;
   text-align: center;
   color: black;
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin: 1rem; }
 
 .boton--enviar {
   background-color: #ff3c00;
@@ -517,17 +520,20 @@ header {
   h3 {
     color: #020202;
     font-weight: 600;
-    font-size: 2rem;
-    text-align: center; }
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 3rem; }
   .video__bajo {
-    width: 300px; }
+    width: 240px; }
   .video__servicio {
-    width: 250px; }
+    width: 240px; }
   .img__luthier {
-    width: 230px; }
+    width: 215px; }
   .formulario {
     justify-content: center;
-    font-weight: 400;
-    font-size: 1rem;
-    margin: 1rem;
-    padding: 1rem; } }
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 0rem; }
+  .w-50 {
+    width: 96% !important; } }

@@ -172,28 +172,39 @@
     h3{
         color: rgb(2, 2, 2);
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 1.7rem;
         text-align: center;
+        margin: 3rem;
     }
     
 
-    .video__bajo{
-        width: 300px;
+    .video__bajo {
+        width: 240px;
     }
     .video__servicio{
-        width: 250px;
+        width: 240px;
     }
 
     .img__luthier{
-        width: 230px;
+        width: 215px;
     }
 
     .formulario{
-        justify-content: center;
-        font-weight: 400;
-        font-size: 1rem;
-        margin: 1rem;
-        padding: 1rem;
+        // justify-content: center;
+        // font-weight: 400;
+        // font-size: 1rem;
+        // margin: 1rem;
+        // padding: 1rem;
+        
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0rem;
+    padding: 0rem;
+
+    }
+    .w-50 {
+        width: 96%!important;
     }
     
 }

@@ -8,11 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/translated.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 
 </head>
 <header class="header__fondo">
     <picture class="header__logo">
-        <img class="header__img" src="./imagenes/logo_large.png" alt="">
+        <img class="header__img" src="./Imagenes/logo_large.png" alt="">
     </picture>
     <nav class="navegacion">
         <ul class="menu">
@@ -33,7 +35,7 @@
 </header>
 <H2>SERVICIO</H2>
 <body class="body-guitarras">
-    <section id="Servicio">
+    <section id="Servicio" data-aos="fade-down">
         <img src="./Imagenes/luthier-2.jpg" alt="" class="img__luthier">
     
         <p> Contamos con uno de los Luthiers mas reconocidos de la ciudad, de trabajos profesionales para muchos musicos del ambiente local y nacional. 
@@ -41,7 +43,8 @@
             Arreglos de instrumentos en el dia. ¡El trabajo mas profesional de la ciudad!
         </p>
         <br>
-        <video src="./Videos/luthier.mp4" class="video__servicio"></video>
+        <!-- <video src="./Videos/luthier.mp4" class="video__servicio"></video> -->
+        <iframe class="video__servicio" width="560" height="315" src="https://www.youtube.com/embed/ZRHmGuegSB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
     </section>
     
@@ -64,5 +67,10 @@
                 </ul>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 </body>
 </html>
